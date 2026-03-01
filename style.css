@@ -1,0 +1,36 @@
+body {
+            scroll-behavior: smooth;
+        }
+        .hero {
+            background: linear-gradient(to right, #000000, #737776);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .service-card {
+            transition: 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+        }
+
+
+.tool-box {
+  width: 100%;
+  height: 120px;              /* same height for all boxes */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool-icon {
+  max-width: 30px;            /* control logo size */
+  max-height: 30px;
+  object-fit: contain;
+}
